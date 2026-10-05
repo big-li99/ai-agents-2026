@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>2026 AI Agent 横评 | 十大智能体优劣全对比</title>
+<meta name="description" content="2026 年十大 AI Agent 横向评测：Claude、ChatGPT、Gemini、Grok、Copilot、DeepSeek、Qwen、Kimi、豆包、Manus 的优劣势、价格与选购指南。">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="hero">
+  <nav class="topnav">
+    <span class="logo">🤖 Agent 横评 2026</span>
+    <div class="navlinks">
+      <a href="#agents">十家详解</a>
+      <a href="#compare">对比表</a>
+      <a href="#guide">选购指南</a>
+      <a href="#notes">说明</a>
+    </div>
+  </nav>
+  <div class="hero-inner">
+    <p class="kicker">2026 · 十月更新</p>
+    <h1>2026 年十大 AI Agent<br>横向评测</h1>
+    <p class="sub">Claude · ChatGPT · Gemini · Grok · Copilot · DeepSeek · Qwen · Kimi · 豆包 · Manus<br>代码、推理、多模态、Agent 自主性、中文、价格 —— 六个维度，一次讲透。</p>
+    <div class="hero-stats">
+      <div><b>10</b><span>家主流 Agent</span></div>
+      <div><b>6</b><span>个评测维度</span></div>
+      <div><b>4</b><span>家大陆可用国产</span></div>
+    </div>
+    <a class="cta" href="#agents">开始看评测 ↓</a>
+  </div>
+</header>
+
+<main>
+  <section id="tldr" class="section">
+    <h2>一句话结论 <span class="h-sub">TL;DR</span></h2>
+    <div class="tldr-grid">
+      <div class="tldr-card"><b>🏆 综合最强</b><p>Claude（代码/Agent）与 GPT-6（生态）并列第一梯队，程序员闭眼入。</p></div>
+      <div class="tldr-card"><b>💰 性价比之王</b><p>DeepSeek：API 价格是国外旗舰的 1/10–1/30，中文推理顶级。</p></div>
+      <div class="tldr-card"><b>🇨🇳 国内首选</b><p>豆包：3.4 亿月活，免费、好用、中文与多模态本土最强。</p></div>
+      <div class="tldr-card"><b>🔓 开源天花板</b><p>Kimi K3：2.8T 史上最大开源权重；Qwen：单卡可跑的私有化首选。</p></div>
+    </div>
+  </section>
+
+  <section id="agents" class="section">
+    <h2>十家详解</h2>
+    <p class="sec-desc">点击卡片展开优劣势。🇨🇳 表示中国大陆可直接使用。</p>
+    <div class="filter-row" id="filters"></div>
+    <div id="agent-list"></div>
+  </section>
+
+  <section id="compare" class="section">
+    <h2>六维能力对比</h2>
+    <p class="sec-desc">★★★★★ 为第一梯队。星级为基于公开基准与媒体横评的综合判断，非精确测量。</p>
+    <div class="table-wrap"><table id="score-table"></table></div>
+    <h2 style="margin-top:3rem">订阅价格一览</h2>
+    <div class="table-wrap"><table id="price-table"></table></div>
+  </section>
+
+  <section id="guide" class="section">
+    <h2>选购指南</h2>
+    <div id="guide-list" class="guide-grid"></div>
+  </section>
+
+  <section id="notes" class="section">
+    <h2>说明与数据来源</h2>
+    <div class="notes-card">
+      <p>本页内容整理自 2026 年 10 月的公开资料检索（模型官网、科技媒体、基准榜单），价格与版本变动较快，<b>下单前请以各官网为准复核</b>。</p>
+      <p>“中文支持”评分综合了语言质量与中国大陆可用性：Claude / ChatGPT / Gemini / Grok 在大陆均无官方服务，Copilot 国际版在大陆基本不可用。</p>
+      <p>开源 Agent 框架同样值得关注：<b>LangGraph</b>（状态图编排，月下载数千万）、<b>CrewAI</b>（角色式多智能体）、<b>OpenHands</b>（自主编程 Agent），以及各大厂官方 SDK（Agent Framework / Agents SDK / ADK）。</p>
+      <p class="update">最后更新：2026-10-05 · 纯静态页面，无后端，可自由转载（请注明出处）。</p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>🤖 2026 AI Agent 横评 · 由 AI 助手自动生成与部署 · 部署于 GitHub Pages</p>
+</footer>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
